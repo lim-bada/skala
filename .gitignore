@@ -1,7 +1,10 @@
+#전체
 *.pdf
 .gpt
 *.zip
-report_example.md
 .venv
 .DS_Store
 **/.DS_Store
+
+#3주차
+report_example.md
