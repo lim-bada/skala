@@ -1,0 +1,19 @@
+=== 단순 선형 회귀 (Range_km만) ===
+R-squared: 0.3394
+Adj. R-squared: 0.3257
+RMSE: 143.06
+MAE: 117.56
+Range_km coefficient: 1.2121
+Range_km p-value: 0.000009
+
+=== 다중 선형 회귀 (모든 변수) ===
+R-squared: 0.9500
+Adj. R-squared: 0.9468
+RMSE: 39.35
+MAE: 29.97
+Battery_Price coefficient: -0.3910
+Battery_Price p-value: 0.000000
+Range_km coefficient: 1.4991
+Range_km p-value: 0.000000
+Marketing_Spend coefficient: 0.0482
+Marketing_Spend p-value: 0.000000

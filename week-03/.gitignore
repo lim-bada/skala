@@ -1,0 +1,6 @@
+*.pdf
+.gpt
+*.zip
+report_example.md
+.venv
+.DS_Store
