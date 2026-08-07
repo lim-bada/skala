@@ -31,7 +31,7 @@ class RepositoryTests {
 
     @Test
     void initialProductsAreLoaded() {
-        assertThat(productRepository.count()).isEqualTo(9);
+        assertThat(productRepository.count()).isEqualTo(20);
         assertThat(productRepository.findByProductName("무선마우스")).isPresent();
     }
 

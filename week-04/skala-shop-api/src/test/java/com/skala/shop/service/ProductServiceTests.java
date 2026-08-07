@@ -27,8 +27,8 @@ class ProductServiceTests {
         PageResponse<ProductResponse> result = productService.getAllProducts(0, 5);
 
         assertThat(result.getContent()).hasSize(5);
-        assertThat(result.getTotalElements()).isEqualTo(9);
-        assertThat(result.getTotalPages()).isEqualTo(2);
+        assertThat(result.getTotalElements()).isEqualTo(20);
+        assertThat(result.getTotalPages()).isEqualTo(4);
     }
 
     @Test
